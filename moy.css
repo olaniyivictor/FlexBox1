@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+
+}
+.nav-links{
+    background-color: black;
+    box-shadow: opx opx 10px;
+    margin-left:-7px;
+    margin-right: -7px;
+    padding: 10px;
+    padding-right: 3px;
+    border-radius: 5px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-items{
+    margin-right: 50px;
+}
+.nav-items a{
+    color: white;
+}   
+.btn-primary{
+    font-size:20px ;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: green;
+}
+.nav-items a:hover{
+    background-color: green
+}
+.menu{
+    background-color: #efefef;
+    height: 60%;
+    width: 90%;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.desc{
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 70px; 
+    font-size: 40px;
+}
+.size{
+    text-align: left;
+    margin-left:40px ;
+    margin-top: -40px ;
+    font-size: 20px;
+    font-weight: normal;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    margin-left:40px;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 7px 7px 7px 7px;
+}
+.container-2{
+    background-color: white;
+    display: flex;
+    
+    
+}
+.container-2 div{
+    padding: 30px;
+    margin-left: 90px;
+    
+}
+.container-2-box{
+    width: 80%;
+    
+}
+.font{
+    font-weight: normal;
+}
